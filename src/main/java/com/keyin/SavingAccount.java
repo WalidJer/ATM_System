@@ -24,7 +24,6 @@ public class SavingAccount extends Account {
      * @param logTransaction  whether to record the withdrawal in the transaction history
      * @return true if the withdrawal is successful; false otherwise
      */
-
     public Boolean withdraw(double amount,boolean logTransaction ) {
         if (amount > 0 && balance >= amount) {
             balance -= amount;
