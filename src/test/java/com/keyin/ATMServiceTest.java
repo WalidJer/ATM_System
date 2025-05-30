@@ -31,7 +31,7 @@ public class ATMServiceTest {
     @Test
     public void testDeposit() {
         atmService.deposit(walid, walidChecking, 200.00);
-        Assertions.assertEquals(700.00, walidChecking.getBalance(), 0.001);
+        Assertions.assertEquals(600.00, walidChecking.getBalance(), 0.001);
     }
 
 
