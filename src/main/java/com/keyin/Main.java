@@ -24,7 +24,6 @@ public class Main {
         atmService.printAccountInfo(john, johnChecking);
 
         // Transactions
-
         atmService.deposit(walid, walidChecking, 200.00);
         atmService.withdraw(walid, walidChecking, 100.00);
 
