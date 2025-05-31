@@ -223,6 +223,16 @@ All dependencies were retrieved from [Maven Central](https://search.maven.org/).
 
 ---
 
+##  Dev/Trunk-Based Workflow
+
+To ensure maintainability and collaboration:
+
+- All work was done using short-lived feature branches (e.g., `failing-test-demo`)
+- Code was never pushed directly to `master`
+- Pull Requests were opened for all changes and reviewed
+- GitHub Actions validated code on every PR
+---
+
 ## Problems Encountered
 ### Transition from VS Code to IntelliJ IDEA
 
@@ -241,7 +251,7 @@ ATM-System/
 │   └── test/java/com/keyin/       # JUnit 
 ├── .github/workflows/maven.yml    # GitHub Actions CI
 ├── README.md                      # Documentation
-├── Screenshots                    # Documentation
+├── Screenshots                    # Sreenshots Images
 └── pom.xml                        # Maven configuration
 
 
